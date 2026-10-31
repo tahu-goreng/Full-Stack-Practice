@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1a1a1a;
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        div {
+            /* border: 1px solid black; */
+            border-radius: 10px;
+            /* padding: 20px; */
+            /* margin: 100px; */
+            padding: 30px;
+            /* display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; */
+            background-color: #d5d4d4;
+            width:300px;
+        }
+        
+        h2 {
+            color: #1a50a0; 
+            /* font-family: Arial, Helvetica, sans-serif; */
+            /* margin-top: 30px; */
+            margin-bottom: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        form {
+            /* display: inline; */
+            display: flex;
+            flex-direction: column;
+            /* width: 300px; */
+        }
+
+        input {
+            border-radius: 4px;
+            border: #000 solid 1px;
+            /* margin: 7px; */
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #d8d8d8;
+        }
+
+        button{
+            background-color: #1b81da;
+            border-radius: 5px;
+            color: white;
+            padding: 10px;
+            /* margin: 7px; */
+        }
+
+        button:hover{
+            background-color: #0741ac;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2 for="login_form">Login</h2>
+        <form id="login_form">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="password" name="password" id="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
