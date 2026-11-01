@@ -1,0 +1,52 @@
+html,
+.body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, purple, blue);
+    font-family: "Noto sans", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+}
+
+.card{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 32px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+}
+
+.notify-form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.notify-form input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.notify-form button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #8a2be2;
+    color: white;
+    margin: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.notify-form button:hover{
+    background-color: #7a1dd1;
+}
